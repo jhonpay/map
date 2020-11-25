@@ -1,24 +1,11 @@
-# README
+## 概要
+google mapを利用し、検索した住所周辺の渋滞情報をすぐに確認できるようにしたサイトです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 使い方
+住所入力欄に住所を入力して検索ボタンをクリック。
 
-Things you may want to cover:
+## 使用した言語等
+HTML/CSS/bootstrap/JavaScript/GitHub
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## API
+GoogleMap/Geocoding
