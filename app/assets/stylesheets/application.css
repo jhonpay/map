@@ -1,0 +1,158 @@
+/* header 部分*/
+#title{
+    color:#540F0F;
+    font:24px bold;
+}
+
+header{
+    background-color: rgba(185,221,255,0.8);
+}
+.navbar-brand{
+    height: 100px;
+    padding: 38px 0px 0px 38px;
+}
+
+.navbar{
+    background-color: rgba(217,224,207,0.8);
+    border:  1px solid;
+    border-color: gray;  
+}
+
+.nav-item{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+}
+
+.nav-item:hover{
+    background-color: rgba(210,220,207,0.8);
+    font-size: 18px;
+}
+
+/* main部分 */
+.container{
+    padding-bottom: 30px;
+    min-height: 50vh;
+    position: relative;
+    box-sizing: border-box;
+}
+/*検索ボックス*/
+.input-group{
+    margin:50px 0px 30px 0px;
+}
+
+/*map表示部分*/
+ #map {
+    height: 100%;
+    height:550px; 
+  }
+  
+.center {
+    padding: 1rem 1rem;
+}
+
+.jumbotron{
+    background-color: antiquewhite;
+}
+
+/*凡例部分*/
+ul.items{
+    margin-bottom:25px;　
+}
+
+ul.items li {
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+}
+
+ul.items li:nth-last-of-type(n + 2) {
+  margin-right: 50px;
+}
+
+ul.items li::before{
+  content: "";
+  display: inline-block;
+}
+
+ul.items li::before {
+  width: 50px;
+  height: 5px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+ul.items li:nth-of-type(1)::before {
+  background-color: red;
+}
+
+ul.items li:nth-of-type(2)::before{
+  background-color: orange;
+}
+
+ul.items li:nth-of-type(3)::before{
+  background-color: lightgreen;
+}
+
+/* footer部分 */
+
+@media screen and (min-width:480px) {
+.bottom{
+    float:right;
+    margin-top:14px;
+    margin-right:50px;
+}}
+
+@media screen and (min-width:768px) {
+.bottom{
+    float:right;
+    margin-top:14px;
+    margin-right:200px;
+}}
+
+/*footerのli部分*/
+.guid{
+    font-size: 14px;
+    line-height: 2;
+    color: black;
+    list-style-type: none;
+}
+
+.guid:before {
+	content: '';
+	width: 4px;
+	height: 4px;
+	display: inline-block;
+	border-radius: 100%;
+	background: black;
+	position: relative;
+	left: -15px;
+	top: -3px;
+}
+
+a{
+    color: inherit;
+}
+
+
+footer {
+    background-color: rgba(185,221,255,0.8);
+    color: black;
+    width: 100%;
+    border:  1px solid;
+    border-color: gray;
+    height:100px;
+    margin-top: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*アカウント作成ページ*/
+.signup{
+    margin-top:60px;
+}

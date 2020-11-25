@@ -1,0 +1,19 @@
+<p>住所を入力して検索ボタンをクリック(orタップ)！付近の渋滞状況を確認できます。</p>
+
+<div class="input-group">
+  <input type="text" class="form-control" id="address" placeholder="住所を入力">
+    <span class="input-group-btn">
+	    <button type="button" class="btn btn-primary" id="search"  onclick="search()">検索</button>
+    </span>
+</div>
+
+<div class="center jumbotron">
+  <div class="center" id="map"></div>
+</div>
+
+<h6>凡例</h6>
+<ul class="items">
+  <li>渋滞している</li>
+  <li>そこそこ渋滞している</li>
+  <li>渋滞していない</li>
+</ul>
