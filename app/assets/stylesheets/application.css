@@ -57,9 +57,7 @@ header{
 }
 
 /*凡例部分*/
-ul.items{
-    margin-bottom:25px;　
-}
+
 
 ul.items li {
   display: inline-block;
